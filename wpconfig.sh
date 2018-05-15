@@ -53,8 +53,8 @@ sed -i "s/define('DB_PASSWORD', 'password_here');/define('DB_PASSWORD', 'passwor
 
 
 echo -e '\E[1;33;44m' "Set up WP for codio domain names - Done"; tput sgr0  
-sed -i "36i define('WP_HOME','http://WORD1-WORD2-3000.codio.io/wordpress');" $WORKSPACE/wordpress/wp-config.php
-sed -i "37i define('WP_SITEURL','http://WORD1-WORD2-3000.codio.io/wordpress');" $WORKSPACE/wordpress/wp-config.php
+sed -i "36i define('WP_HOME','https://WORD1-WORD2-3000.codio.io/wordpress');" $WORKSPACE/wordpress/wp-config.php
+sed -i "37i define('WP_SITEURL','https://WORD1-WORD2-3000.codio.io/wordpress');" $WORKSPACE/wordpress/wp-config.php
 sed -i s_WORD1-WORD2_"$CODIO_HOST"_g  $WORKSPACE/wordpress/wp-config.php
 
 
