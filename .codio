@@ -3,7 +3,7 @@
      "Configure Project": "bash wpconfig.sh"
     },
     "preview": {
-        "WordPress Login": "http://{{domain3000}}/wordpress/wp-login.php",
-        "WordPress Admin": "http://{{domain3000}}/wordpress/wp-admin"
+        "WordPress Login": "https://{{domain3000}}/wordpress/wp-login.php",
+        "WordPress Admin": "https://{{domain3000}}/wordpress/wp-admin"
     }
 }
